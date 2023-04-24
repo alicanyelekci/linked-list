@@ -138,15 +138,3 @@ class LinkedList {
     return currentNode;
   }
 }
-
-const list = new LinkedList();
-
-list.append("a");
-list.append("b");
-list.prepend("qwe");
-list.append("c");
-list.append("d");
-
-console.log(list.toString());
-console.log(list.insertAt("abc", 1));
-console.log(list.toString());
